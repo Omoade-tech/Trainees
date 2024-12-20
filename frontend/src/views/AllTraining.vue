@@ -117,11 +117,12 @@
     padding: 0;
   }
   
-  .loading-state {
-    display: flex;
+  .spinner-border {
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     font-size: 1rem;
+    color: red;
   }
   
   .btn {
@@ -132,11 +133,10 @@
     transform: scale(1.05);
   }
   
-  /* Make cards fill more of the screen */
   .container {
     max-width: 1400px;
   }
   
-  /* If you want to use Bootstrap icons, make sure to import the CSS */
+  
   @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
   </style>
